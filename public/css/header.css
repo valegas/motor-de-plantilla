@@ -1,0 +1,41 @@
+.logo{
+    width: 27%;
+}
+.title{
+    font-family: var(--family-fugazOne);
+    display: flex;
+    flex-direction: row;
+    width: 69%;
+    justify-content: flex-end;
+    position: relative;
+    margin-top: -20%;
+    margin-bottom: 11%;
+    font-family: fantasy;
+    font-size: 170%;
+}
+@media(min-width:426px) {
+    .logo{
+       
+    }
+    .title{
+        font-family: var(--family-fugazOne);
+        display: flex;
+        flex-direction: row;
+        width: 69%;
+        justify-content: flex-end;
+        position: relative;
+        margin-top: -14%;
+        margin-bottom: 14%;
+        font-family: fantasy;
+        font-size: 391%;
+    }
+}
+
+@media(min-width:769px) {
+    .logo{
+       
+    }
+    .title{
+    
+    }
+}
